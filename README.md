@@ -13,7 +13,8 @@ Binary search is divided into smaller tasks:
 4.	Compare the middle value and decide to move left, move right, or return found.
 5.	Record each step for display.
 6.	Output all steps and a summary (found/not found).
-________________________________________
+
+
 Pattern Recognition                  
 The algorithm repeats the same cycle:
 •	Check the middle element.
@@ -21,7 +22,8 @@ The algorithm repeats the same cycle:
 •	If smaller → discard the right half.
 •	If larger → discard the left half.
 This repeated "halve the list and compare" pattern continues until the target is found or the interval is empty.
-________________________________________
+
+
 Abstraction
 Shown to the user:
 •	The list with the current middle element highlighted,
@@ -30,9 +32,15 @@ Shown to the user:
 Hidden:
 •	Python loops, index math, error handling, and internal data types.
 The user sees the thinking of the algorithm, not the code details.
-________________________________________
+
+
 Algorithm Design (Input → Process → Output + GUI)
 •	Input: Two text fields — a comma-separated list and a target number.
 •	Processing: Validate input → binary search loop → build step-by-step trace.
 •	Output: A textbox showing each step, and a summary result message.
 •	GUI: Gradio handles input boxes, button click, and displaying the results.
+
+Code written by Remy Ouellette, with help from ChatGPT Level 4.
+
+Hugging Face Link : [https://huggingface.co/remyyyyyy/Binary_Search_Python/blob/main/Final.py](url)
+
