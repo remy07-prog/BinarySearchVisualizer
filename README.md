@@ -1,10 +1,10 @@
 # BinarySearchVisualizer
-Binary Search Visualizer built with Python and Gradio
+##Binary Search Visualizer built with Python and Gradio
 
 
 
 
-Decomposition
+Decomposition                       
 Binary search is divided into smaller tasks:
 1.	Accept input list and target from the user.
 2.	Validate and convert the list into integers; ensure it is sorted.
@@ -13,7 +13,7 @@ Binary search is divided into smaller tasks:
 5.	Record each step for display.
 6.	Output all steps and a summary (found/not found).
 ________________________________________
-Pattern Recognition
+Pattern Recognition                  
 The algorithm repeats the same cycle:
 •	Check the middle element.
 •	If equal → stop.
