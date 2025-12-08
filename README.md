@@ -42,5 +42,4 @@ Algorithm Design (Input → Process → Output + GUI)
 
 Code written by Remy Ouellette, with help from ChatGPT Level 4.
 
-Hugging Face Link : [https://huggingface.co/remyyyyyy/Binary_Search_Python/blob/main/Final.py](url)
 
